@@ -22,7 +22,7 @@ function loadCustomConfigHelper() {
 }
 
 let FractalConfigHelper = {
-  loadCurrentConfig (file) {
+  loadYml(file) {
     let data = {};
 
     try {
@@ -57,16 +57,8 @@ let FractalConfigHelper = {
       }
     }
 
-    return () => data;
-  },
-  // todo remove
-  exampleWysiwyg() {
-    return this.sampleLoader('_rich-text--default.html');
-  },
-  // todo remove
-  bigExampleWysiwyg() {
-    return this.sampleLoader('_rich-text--long.html');
-  },
+    return data;
+  }
 };
 
 FractalConfigHelper = _.defaults(FractalConfigHelper, customHelperMethods);

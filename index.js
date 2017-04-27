@@ -5,7 +5,7 @@ const _ = require('lodash');
 const fs = require('fs');
 const Path = require('path');
 const yaml = require('yamljs');
-const customHelpterPath = 'fractal-config/custom-helpers';
+const customHelterPath = 'fractal-config/custom-helpers';
 const samplesFolder = 'samples';
 
 const customHelperMethods = loadCustomConfigHelper();
@@ -13,8 +13,7 @@ const customHelperMethods = loadCustomConfigHelper();
 function loadCustomConfigHelper() {
   try {
     // Default Path
-    return require(Path.resolve(process.env.PWD, customHelpterPath));
-
+    return require(Path.resolve(process.env.PWD, customHelterPath));
   } catch (e) {
     // Default
     return {};
@@ -37,7 +36,7 @@ let FractalConfigHelper = {
     let data = '';
     let customFilePath = Path.join(
       process.env.PWD,
-      customHelpterPath,
+      customHelterPath,
       samplesFolder,
       fileName
     );

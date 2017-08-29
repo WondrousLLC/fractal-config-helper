@@ -10,6 +10,6 @@ $ npm install --save fractal-config-helper
 
 ## Creator
 
-[WONDROUS LLC](https://www.wearewondrous.ch/)
+[WONDROUS LLC](https://www.wearewondrous.com/)
 
 ## [License](LICENSE)

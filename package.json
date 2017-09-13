@@ -19,9 +19,9 @@
     "index.js"
   ],
   "dependencies": {
-    "lodash": "^4.14.1",
-    "faker": "^3.1.0",
-    "yamljs": "^0.2.8"
+    "lodash": "^4.17.4",
+    "faker": "^4.1.0",
+    "yamljs": "^0.3.0"
   },
   "scripts": {
     "release:major": "npm version major -m \"Released version %s\" && npm publish && git push --follow-tags",

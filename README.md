@@ -10,6 +10,6 @@ $ npm install --save @wearewondrous/fractal-config-helper
 
 ## Creator
 
-[WONDROUS LLC](https://www.wearewondrous.com/)
+[WONDROUS](https://www.wearewondrous.com/)
 
 ## [License](LICENSE)
